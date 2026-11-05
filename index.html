@@ -6,20 +6,19 @@
     <title>People's Youth Organization - PYO</title>
     <style>
         :root {
-            --primary-color: #0f172a;
-            --accent-color: #2563eb;
-            --bg-color: #f8fafc;
+            --bg-gradient: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
             --card-bg: #ffffff;
-            --text-main: #334155;
+            --primary-blue: #1d4ed8;
+            --text-main: #1e293b;
             --text-muted: #64748b;
         }
         body {
             font-family: 'Pyidaungsu', 'Segoe UI', Arial, sans-serif;
-            background-color: var(--bg-color);
+            background: #f0f4ff;
             margin: 0;
             padding: 20px;
             color: var(--text-main);
-            line-height: 1.6;
+            line-height: 1.7;
         }
         .container {
             max-width: 750px;
@@ -27,45 +26,50 @@
         }
         .header {
             text-align: center;
-            background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+            background: var(--bg-gradient);
             color: white;
-            padding: 40px 20px;
-            border-radius: 16px;
+            padding: 45px 20px;
+            border-radius: 20px;
             margin-bottom: 25px;
-            box-shadow: 0 10px 25px -5px rgba(37, 99, 235, 0.2);
+            box-shadow: 0 10px 25px -5px rgba(29, 78, 216, 0.3);
         }
         .header h1 {
-            margin: 0 0 10px 0;
-            font-size: 26px;
+            margin: 0 0 8px 0;
+            font-size: 28px;
+            font-weight: 700;
             letter-spacing: 0.5px;
         }
         .header p {
             margin: 0;
-            color: #93c5fd;
-            font-size: 14px;
+            color: #dbeafe;
+            font-size: 15px;
+            font-weight: 500;
         }
         .card {
             background: var(--card-bg);
-            padding: 24px;
-            margin-bottom: 18px;
-            border-radius: 14px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
-            border-left: 5px solid var(--accent-color);
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            padding: 24px 28px;
+            margin-bottom: 20px;
+            border-radius: 16px;
+            box-shadow: 0 4px 15px rgba(30, 58, 138, 0.05);
+            border: 1px solid #e0e7ff;
+            border-left: 6px solid var(--primary-blue);
+            transition: all 0.3s ease;
         }
         .card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 25px rgba(30, 58, 138, 0.1);
+            border-color: #c7d2fe;
         }
         .card h2 {
             margin: 0 0 10px 0;
-            color: var(--primary-color);
-            font-size: 18px;
+            color: var(--primary-blue);
+            font-size: 19px;
+            font-weight: 700;
         }
         .card p {
             margin: 0;
             color: var(--text-main);
-            font-size: 15px;
+            font-size: 15.5px;
         }
     </style>
 </head>
@@ -74,17 +78,17 @@
 <div class="container">
     <div class="header">
         <h1>People's Youth Organization</h1>
-        <p>PYO — Public Information</p>
+        <p>PYO  Public Information</p>
     </div>
 
     <div class="card">
         <h2>Vision</h2>
-        <p>လူငယ်တွေနဲ့ ဖွဲ့စည်းထားတဲ့ organization ဖြစ်တဲ့အတွက်ကြောင့် အနာဂါတ်မှာ မြန်မာနိုင်ငံတိုးတက်ဖို့အတွက် အကျိုးပြုကြမှာပဲ ဖြစ်ပါတယ်။</p>
+        <p>လူငယ်တွေနဲ့ ဖွဲ့စည်းထားတဲ့ organization ဖြစ်တဲ့အတွက်ကြောင့် အနာဂတ်မှာ မြန်မာနိုင်ငံတိုးတက်ဖို့အတွက် အကျိုးပြုကြမှာပဲ ဖြစ်ပါတယ်။</p>
     </div>
 
     <div class="card">
         <h2>Equality</h2>
-        <p>ကျွန်တော်တို့က တစ်သွေးထဲ တစ်သားတည်းဖြစ်ကြတဲ့အတွက် တိုင်းရင်းသားလူမျိုးတိုင်း၊ ကိုးကွယ်ရာဘာသာတိုင်း၊ ဆင်းရဲချမ်းသာတဲ့ လူတွေအကုန်လုံးက တန်းတူပါပဲ။</p>
+        <p>ကျွန်တော်တို့က တစ်သွေးထဲ တစ်သားတည်းဖြစ်ကြတဲ့အတွက် တိုင်းရင်းသားလူမျိုးတိုင်း၊ ကိုးကွယ်ရာဘာသာတိုင်း၊ ဆင်းရဲချမ်းသာတဲ့လူတိုင်း အကုန်လုံးက တန်းတူပါပဲ။</p>
     </div>
 
     <div class="card">
